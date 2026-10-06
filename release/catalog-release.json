@@ -1,10 +1,10 @@
 {
-  "tag": "pokemini-catalog-20261006",
-  "title": "Pokémon Mini Catalog: storage v4, first release",
+  "tag": "pokemini-catalog-20261006-2",
+  "title": "Pokémon Mini Catalog: naming normalized, one schema for fifteen platforms",
   "platform": "pokemini",
   "catalog_name": "RetroBoxDB.PokemonMini.Catalog.sqlite",
-  "base_url": "https://github.com/rshi0212/RetroBoxDB-PokemonMini/releases/download/pokemini-catalog-base-20261006/RetroBoxDB.PokemonMini.Catalog.sqlite",
-  "base_sha256": "118c67ff4cf6ece7510a6d2317f99a9962e8fa6ea5a9cf12a02ba916ae79b45c",
+  "base_url": "https://github.com/rshi0212/RetroBoxDB-PokemonMini/releases/download/pokemini-catalog-base-20261006-2/RetroBoxDB.PokemonMini.Catalog.sqlite",
+  "base_sha256": "05a3a06c60553f6d45122936e094094767b47af3419cdd15143a78dc6e44a2d1",
   "data_table_sha256": {
     "archive_entries": {
       "rows": 88,
@@ -47,8 +47,8 @@
       "sha256": "6a6eaa59add2b95cfef811729ae0f52aa5ed2f5d080e768dea37fe6c60583128"
     },
     "events": {
-      "rows": 11,
-      "sha256": "c647c719d8d1c8edec283129adb4dcf0ff3650d962f6cbe143a67257eaef76aa"
+      "rows": 12,
+      "sha256": "02b66fab1fa6562ea81f5a802c5a4769c0aad509a00667c74b7e8633e88d62f5"
     },
     "fds_hardware": {
       "rows": 0,
@@ -76,7 +76,7 @@
     },
     "frontend_platforms": {
       "rows": 1,
-      "sha256": "ef998a050c8387c1ee4fc52e25bb309267d78f299d7555143ecc746ea11403d5"
+      "sha256": "db32e67bdf8e36c69eda38842fc83ae1f80edb8ca8a26a9c81107796996d307f"
     },
     "frontend_profiles": {
       "rows": 1,
@@ -124,7 +124,7 @@
     },
     "meta": {
       "rows": 23,
-      "sha256": "d4617969d7801f22f84a7303f89c99d4ccf8cee97befeca9076aa51a667f6aaf"
+      "sha256": "9774f40016c0efd331916323f2fe682239284e0684e2cdff8557ecd6c73ee437"
     },
     "naming_decisions": {
       "rows": 2,
@@ -307,8 +307,8 @@
       "sha256": "22e0a1fcf583b574e9b3861b7b651ee25c4500fcc7b118f6dd41ca0ba4f6bc11"
     },
     "scraper_providers": {
-      "rows": 1,
-      "sha256": "ad358de51eea41e843cd0757449d5bc7ed51b790e76768b9651051451c16bf86"
+      "rows": 2,
+      "sha256": "82920b2b40de7fc602f4f14769e0dd2384f435705a9be8cd4ed08a984c72d37f"
     },
     "sms_hardware": {
       "rows": 0,
@@ -416,6 +416,10 @@
       "kind": "python",
       "path": "tools/export_nointro_parents.py"
     },
+    "normalize_db.py": {
+      "kind": "python",
+      "path": "tools/normalize_db.py"
+    },
     "tests_v4.py": {
       "kind": "python",
       "path": "tests/test_v4.py"
@@ -448,21 +452,21 @@
       "kind": "json",
       "path": "assessment/data/storage-experiment-satellaview.json"
     },
-    "storage-experiment-sms": {
+    "storage-experiment-mastersystem": {
       "kind": "json",
-      "path": "assessment/data/storage-experiment-sms.json"
+      "path": "assessment/data/storage-experiment-mastersystem.json"
     },
-    "storage-experiment-32x": {
+    "storage-experiment-sega32x": {
       "kind": "json",
-      "path": "assessment/data/storage-experiment-32x.json"
+      "path": "assessment/data/storage-experiment-sega32x.json"
     },
-    "storage-experiment-ws": {
+    "storage-experiment-wswan": {
       "kind": "json",
-      "path": "assessment/data/storage-experiment-ws.json"
+      "path": "assessment/data/storage-experiment-wswan.json"
     },
-    "storage-experiment-wsc": {
+    "storage-experiment-wswanc": {
       "kind": "json",
-      "path": "assessment/data/storage-experiment-wsc.json"
+      "path": "assessment/data/storage-experiment-wswanc.json"
     },
     "storage-experiment-ngp": {
       "kind": "json",
