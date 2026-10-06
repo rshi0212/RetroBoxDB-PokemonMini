@@ -7,8 +7,8 @@
 | 项目 | 数值 |
 | --- | --- |
 | 原始大小 | 源 ZIP 101 个，8.9 MiB（No-Intro 50 个，RetroAchievements 集合 51 个）；解压后 ROM 101 个，35.9 MiB |
-| 入库后大小 | 完整库 4.9 MiB；公开 Catalog 2.1 MiB（不含 ROM 数据） |
-| 比例 | 完整库为原 ZIP 的 55.4%，为解压后 ROM 总量的 13.8% |
+| 入库后大小 | 完整库 5.1 MiB；公开 Catalog 2.2 MiB（不含 ROM 数据） |
+| 比例 | 完整库为原 ZIP 的 57.3%，为解压后 ROM 总量的 14.2% |
 | 使用的技术 | 存储 v4：256 KiB 块按 SHA256 去重，按 No-Intro 游戏族顺序装入最大 32 MiB 的 LZMA2 实体组（字典 32 MiB）；逐块 SHA256、逐对象 CRC32／MD5／SHA1／SHA256 校验；源 ZIP 由 TorrentZip 配方逐字节重建 |
 | 导出性能 | Intel(R) Core(TM) i7-8650U CPU @ 1.90GHz，空闲负载，Python 3.14.4，含全部校验。按最新 DAT 整套导出（`export_set.py`，46 个文件，逐个按 DAT 哈希校验）：47.6 MiB/s，平均 10 毫秒／个；单个文件冷缓存（每次清空缓存，需解压所在组的前段）：ROM 平均 0.074 秒，TorrentZip 平均 0.118 秒 |
 
@@ -37,7 +37,7 @@
 | 各版 DAT 覆盖 | 20260529-125415：46/46 |
 | 不在任何 DAT 的本地 ROM | 37 |
 | RetroAchievements 集合中的 ROM 文件 | DAT 中有 16，仅 RA 收录 35，哈希不在最新 RA 快照 0（[清单](reports/ra-pokemini-collection-unknown.csv)）；仍缺本地 ROM 的 RA 游戏见 [缺口清单](reports/ra-pokemini-missing.csv) |
-| No-Intro DB Export＋Dump Log unknown | 46 个档案、49 个文件身份、20 条有文档的硬件声明；Dump Log Verified 9 |
+| No-Intro DB Export＋Dump Log 20260529-125415 | 46 个档案、49 个文件身份、20 条有文档的硬件声明；Dump Log Verified 9 |
 | RetroAchievements（console 24） | 有成就的游戏 40 个：本地有 ROM 39（51 个 ROM），ROM 在兄弟库中 0，仅 DAT 有 0，仅 DB 文件 0，无 No-Intro 对应 1 |
 | 中文名 | 44 条记录中 43 条有中文（17 个唯一名）；本地 ROM 43 个有中文名 |
 | 完整库审计 | 86 个对象、1 个组、88 个 ZIP 配方，全部通过 |

@@ -7,8 +7,8 @@ Single-file SQLite preservation database for Nintendo Pokémon Mini. The public 
 | Item | Value |
 | --- | --- |
 | Original size | 101 source ZIPs, 8.9 MiB (No-Intro 50, RetroAchievements sets 51); 101 ROM files, 35.9 MiB uncompressed |
-| Stored size | populated database 4.9 MiB; public Catalog 2.1 MiB (no ROM data) |
-| Ratio | 55.4% of the source ZIPs, 13.8% of the uncompressed ROM files |
+| Stored size | populated database 5.1 MiB; public Catalog 2.2 MiB (no ROM data) |
+| Ratio | 57.3% of the source ZIPs, 14.2% of the uncompressed ROM files |
 | Technology | storage v4: SHA256-deduplicated 256 KiB blocks packed in No-Intro family order into solid LZMA2 groups of up to 32 MiB (32 MiB dictionary); per-block SHA256 and per-object CRC32/MD5/SHA1/SHA256 verification; source ZIPs reproduced byte-for-byte from TorrentZip plans |
 | Export performance | Intel(R) Core(TM) i7-8650U CPU @ 1.90GHz, idle, Python 3.14.4, all checks included. whole newest-DAT set with `export_set.py` (46 files, each checked against the DAT hashes): 47.6 MiB/s, 10 ms per file on average; single file with a cold cache (the group is decoded up to the file): ROM 0.074 s, TorrentZip 0.118 s on average |
 
@@ -37,7 +37,7 @@ Single-file SQLite preservation database for Nintendo Pokémon Mini. The public 
 | DAT coverage per version | 20260529-125415: 46/46 |
 | Local ROMs in no DAT | 37 |
 | ROM files of the RetroAchievements set | in a No-Intro DAT 16, RA only 35, hash not in the latest RA snapshot 0 ([list](reports/ra-pokemini-collection-unknown.csv)); RA games still without a local ROM: [gap list](reports/ra-pokemini-missing.csv) |
-| No-Intro DB Export + Dump Log unknown | 46 archives, 49 file identities, 20 documented hardware assertions; Dump Log Verified 9 |
+| No-Intro DB Export + Dump Log 20260529-125415 | 46 archives, 49 file identities, 20 documented hardware assertions; Dump Log Verified 9 |
 | RetroAchievements (console 24) | 40 games with achievements: 39 with a local ROM (51 ROMs), 0 with the ROM in a sibling database, 0 DAT only, 0 DB file only, 1 without a No-Intro counterpart |
 | Chinese names | 43 of 44 rows translated (17 unique); 43 local ROMs have a Chinese name |
 | Populated-database audit | 86 objects, 1 groups, 88 archive plans, all passed |
