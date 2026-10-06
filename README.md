@@ -7,8 +7,8 @@ Single-file SQLite preservation database for Nintendo Pokémon Mini. The public 
 | Item | Value |
 | --- | --- |
 | Original size | 101 source ZIPs, 8.9 MiB (No-Intro 50, RetroAchievements sets 51); 101 ROM files, 35.9 MiB uncompressed |
-| Stored size | populated database 4.8 MiB; public Catalog 2.0 MiB (no ROM data) |
-| Ratio | 54.2% of the source ZIPs, 13.5% of the uncompressed ROM files |
+| Stored size | populated database 4.9 MiB; public Catalog 2.1 MiB (no ROM data) |
+| Ratio | 55.4% of the source ZIPs, 13.8% of the uncompressed ROM files |
 | Technology | storage v4: SHA256-deduplicated 256 KiB blocks packed in No-Intro family order into solid LZMA2 groups of up to 32 MiB (32 MiB dictionary); per-block SHA256 and per-object CRC32/MD5/SHA1/SHA256 verification; source ZIPs reproduced byte-for-byte from TorrentZip plans |
 | Export performance | Intel(R) Core(TM) i7-8650U CPU @ 1.90GHz, idle, Python 3.14.4, all checks included. whole newest-DAT set with `export_set.py` (46 files, each checked against the DAT hashes): 47.6 MiB/s, 10 ms per file on average; single file with a cold cache (the group is decoded up to the file): ROM 0.074 s, TorrentZip 0.118 s on average |
 
