@@ -1,0 +1,14 @@
+{
+ "db": "PokemonMini",
+ "ok": true,
+ "seconds": 1,
+ "integrity_check": [
+  "ok"
+ ],
+ "foreign_key_errors": [],
+ "objects_checked": 86,
+ "archive_plans_checked": 88,
+ "compression_groups_checked": 1,
+ "historical_zip_objects": 88,
+ "errors": []
+}

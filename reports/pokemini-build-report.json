@@ -1,0 +1,193 @@
+{
+  "platform": "pokemini",
+  "started_at": "2026-10-06T06:40:23.093903+00:00",
+  "engine_version": "4.0.0",
+  "dat_sets": [
+    {
+      "id": 1,
+      "name": "Nintendo - Pokemon Mini (Parent-Clone)",
+      "version": "20260529-125415"
+    }
+  ],
+  "completed_stages": [
+    "dat_import",
+    "rom_import",
+    "scan_diff_catalog",
+    "nointro",
+    "packages",
+    "retroachievements",
+    "game_names"
+  ],
+  "rom_import": {
+    "directories": [
+      "/mnt/MyShare/No-Intro/Nintendo - Pokemon Mini",
+      "/mnt/MyShare/No-Intro/Nintendo - Pokemon Mini (Aftermarket)"
+    ],
+    "families": 22,
+    "family_assignment": {
+      "family_from_dat_or_db": 50
+    },
+    "errors": [],
+    "groups": 1,
+    "raw_group_bytes": 19290291,
+    "stored_group_bytes": 1358377,
+    "zips": 50,
+    "sidecar_files": 0,
+    "seconds": 10
+  },
+  "scan": {
+    "1": {
+      "match": 46,
+      "mismatch": 0,
+      "unverifiable": 0,
+      "no_candidate": 0
+    }
+  },
+  "dat_diff": {},
+  "catalog": {
+    "games": 22,
+    "releases": 46,
+    "old_dat_games_linked": 0,
+    "rom_release_links": 46
+  },
+  "nointro": {
+    "snapshot_id": 1,
+    "version": "unknown",
+    "archives": 46,
+    "files": 49,
+    "files_with_local_payload": 49,
+    "sources": 77,
+    "dumplog_rows": 46,
+    "dat_links": 46,
+    "archive_release_links": 46,
+    "hardware_assertions": 20,
+    "dumplog_status": {
+      "unverified": 28,
+      "trusted_unverified": 9,
+      "verified": 9
+    },
+    "anomalies": {}
+  },
+  "packages": {
+    "packages_by_dat_set": {
+      "1": 46
+    },
+    "errors": []
+  },
+  "retroachievements": {
+    "snapshot_id": 1,
+    "console_id": 24,
+    "fetched_at": "2026-10-06T06:40:38.168249+00:00",
+    "games": 40,
+    "hashes": 52,
+    "games_with_achievements": 40,
+    "hashes_of_games_with_achievements": 52,
+    "local_roms_matched": 17,
+    "ra_games_with_local_rom": 12,
+    "dat_entries_matched": 16,
+    "ra_games_in_any_dat": 12,
+    "hashes_with_achievements_unexplained": 35,
+    "by_category_local": {
+      "Homebrew": 1,
+      "Homebrew/Demo": 1,
+      "Official": 10
+    }
+  },
+  "game_names": {
+    "source_name": "Nintendo - Pokemon Mini.csv",
+    "source_sha256": "6f556472f0b8f5ee1176b9dcd164275bb2056f442bc42040b740156ec2531fa3",
+    "normalization_version": "parentheses-whitespace-casefold-v1",
+    "import_id": 1,
+    "matching_version": "game-qualified-title-v1",
+    "rows": 44,
+    "rows_with_chinese": 43,
+    "unique_chinese_names": 17,
+    "normalized_titles": 24,
+    "matched_rows": 44,
+    "matched_rows_with_chinese": 43,
+    "matched_releases": 44,
+    "releases_with_chinese": 43,
+    "matched_games": 20,
+    "matched_roms": 44,
+    "matched_links": 44,
+    "ambiguous_links": 0,
+    "ambiguous_rows": 0,
+    "unmatched_rows": 0,
+    "unresolved_rows": [],
+    "multiple_translation_keys": [],
+    "matched_rows_by_method": {
+      "exact_title": 44
+    }
+  },
+  "audit": {
+    "integrity_check": [
+      "ok"
+    ],
+    "foreign_key_errors": [],
+    "objects_checked": 52,
+    "archive_plans_checked": 53,
+    "compression_groups_checked": 1,
+    "historical_zip_objects": 53,
+    "ok": true,
+    "errors": []
+  },
+  "stats": {
+    "counts": {
+      "files": 152,
+      "objects": 105,
+      "chunks": 79,
+      "roms": 49,
+      "dat_sets": 1,
+      "dat_roms": 46,
+      "transformations": 0,
+      "packages": 46,
+      "media": 0
+    },
+    "storage": {
+      "logical_content_bytes": 24350911,
+      "historical_zip_bytes_not_stored": 6553995,
+      "unique_raw_chunk_bytes": 19370175,
+      "stored_chunk_bytes": 1372032,
+      "header_body_recipes": 0,
+      "zip_plans": 53,
+      "file_occurrences": 152,
+      "catalog_objects": 105
+    },
+    "dat_coverage": [
+      {
+        "dat_set_id": 1,
+        "status": "matched",
+        "count": 46
+      }
+    ],
+    "codecs": [
+      {
+        "codec": "group",
+        "blocks": 76,
+        "raw_bytes": 19290291,
+        "stored_bytes": 0
+      },
+      {
+        "codec": "lzma",
+        "blocks": 3,
+        "raw_bytes": 79884,
+        "stored_bytes": 13655
+      }
+    ],
+    "storage_schema_version": 4,
+    "compression_groups": {
+      "groups": 1,
+      "raw_bytes": 19290291,
+      "stored_bytes": 1358377
+    },
+    "platform": "pokemini",
+    "solid_groups": {
+      "groups": 1,
+      "raw_bytes": 19290291,
+      "stored_bytes": 1358377
+    }
+  },
+  "finished_at": "2026-10-06T06:40:39.346871+00:00",
+  "seconds": 17,
+  "database_bytes": 4718592
+}
